@@ -11,6 +11,6 @@ const inventorySchema = mongoose.Schema({
     image : String
 });
 
-const InventoryModel = mongoose.model('marketplace_inventory',oemSchema);
+const InventoryModel = mongoose.model('marketplace_inventory',inventorySchema);
 
 module.exports = InventoryModel;
